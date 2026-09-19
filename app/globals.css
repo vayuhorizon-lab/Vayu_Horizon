@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #050914;
+  --color-deep-navy: #081426;
+  --color-horizon-blue: #0D2442;
+  --color-ice-blue: #5EA8FF;
+  --color-moon-white: #DDEBFF;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cinzel), ui-serif, Georgia, serif;
+
+  --animate-marquee: marquee 120s linear infinite;
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(94, 168, 255, 0.4);
+  }
+  .pause-animation {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+:root {
+  --background: #050914;
+  --foreground: #DDEBFF;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
