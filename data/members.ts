@@ -41,7 +41,7 @@ export const members: Member[] = [
     name: "Zeskyeliya Nori Basalamah",
     role: "members",
     quote: "Isn't the moon lovely?",
-    imageUrl: "/images/members/zeskyeliya.jpeg",
+    imageUrl: "/images/members/Zeskyeliya.jpeg",
     
   },
   {
@@ -50,6 +50,22 @@ export const members: Member[] = [
     role: "members",
     quote: "nikmati hari ini siapa tau besok mati",
     imageUrl: "/images/members/jacky.jpeg",
+    
+  },
+  {
+    id: "7",
+    name: "Muhammad Keykoza Fathiazizi",
+    role: "members",
+    quote: "",
+    imageUrl: "/images/members/keykoza.jpeg",
+    
+  },
+  {
+    id: "8",
+    name: "Vincent",
+    role: "members",
+    quote: "",
+    imageUrl: "/images/members/vincent.jpeg",
     
   },
 ];
